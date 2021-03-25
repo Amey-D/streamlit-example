@@ -1,6 +1,7 @@
 from collections import namedtuple
 import altair as alt
 import math
+import os
 import pandas as pd
 import streamlit as st
 
@@ -14,6 +15,8 @@ forums](https://discuss.streamlit.io).
 
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
+
+st.write(os.environ)
 
 
 with st.echo(code_location='below'):
